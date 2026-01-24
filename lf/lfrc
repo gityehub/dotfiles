@@ -1,4 +1,5 @@
-# kitty image preview is work in progress
+set previewer ~/.config/lf/previewer.sh
+set cleaner ~/.config/lf/cleaner.sh
 # Custom Functions
  cmd open ${{
     case $(file --mime-type "$f" -bL) in
@@ -36,7 +37,6 @@ cmd fzf_jump ${{
 # Remove bindings
 map f
 map m
-
 
 # Mappings
 map mf mkfile
