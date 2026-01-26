@@ -12,6 +12,7 @@ input {
         repeat-delay 250
         repeat-rate 60
         // Enable numlock on startup, omitting this setting disables it.
+        numlock
     }
 
     touchpad {
